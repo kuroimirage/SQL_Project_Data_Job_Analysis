@@ -26,7 +26,7 @@ ORDER BY
 LIMIT 15;
 
 /*
-13 remote jobs and two Michigan jobs made the list.
+13 remote jobs and 2 Michigan jobs made the list.
 
 [
   {
