@@ -69,7 +69,7 @@ WHERE
     job_title_short = 'Data Analyst'
     AND salary_year_avg IS NOT NULL
     AND (job_work_from_home = true OR job_location LIKE '%MI%')
-    AND skills_dim.skill_id <> '7' -- Noticed duplicated skill in table
+    AND skills_dim.skill_id <> '7' -- Catches duplicate skill 'sas' in skills table
 GROUP BY
     skills_dim.skill_id
 HAVING
